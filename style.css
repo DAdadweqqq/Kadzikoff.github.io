@@ -1,0 +1,172 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: #EFE4E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonhere {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 150px;
+    height: 150px;
+}
+
+.board {
+  font-size: 45px;
+  font-family: Pacifico;
+  text-align: center;
+  width: 500px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.button1,
+.button1 *,
+.button1 :after,
+.button1 :before,
+.button1:after,
+.button1:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.button1 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.button1:disabled {
+  cursor: default;
+}
+.button1:-moz-focusring {
+  outline: auto;
+}
+.button1 svg {
+  display: block;
+  vertical-align: middle;
+}
+.button1 [hidden] {
+  display: none;
+}
+.button1 {
+    font-size: 10px;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+    border: 1px solid;
+    border-radius: 999px;
+    box-shadow: 0 0 0 2em #72f14f42;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 900;
+    -webkit-mask-image: none;
+    overflow: hidden;
+    padding: 10px 40px;
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #ffffff;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #ffffff;
+  }
+}
+
+.button2,
+.button2 *,
+.button2 :after,
+.button2 :before,
+.button2:after,
+.button2:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.button2 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #ff0000);
+  padding: 0;
+}
+.button2:disabled {
+  cursor: default;
+}
+.button2:-moz-focusring {
+  outline: auto;
+}
+.button2 svg {
+  display: block;
+  vertical-align: middle;
+}
+.button2 [hidden] {
+  display: none;
+}
+.button2 {
+    font-size: 10px;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+    border: 1px solid;
+    border-radius: 999px;
+    box-shadow: 0 0 0 2em #f3335d42;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 900;
+    -webkit-mask-image: none;
+    overflow: hidden;
+    padding: 10px 40px;
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+}
+
+
+
